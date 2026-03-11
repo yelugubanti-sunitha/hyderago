@@ -87,4 +87,13 @@ You can download Node.js from:
 ```bash
 https://nodejs.org
 ```
+ 📸 Screenshots
 
+Home Page
+![Home Page](screenshots/home.png)
+
+Ride Selection
+![Ride Selection](screenshots/rides.png)
+
+Contact Section
+![Contact Section](screenshots/contact.png)
