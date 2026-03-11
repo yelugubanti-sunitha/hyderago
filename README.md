@@ -3,6 +3,12 @@
 HyderaGo is a responsive ride booking web application inspired by modern ride-hailing platforms.  
 Users can explore Hyderabad, choose rides, view famous locations, and simulate booking a ride.
 
+🌐 Live Demo
+
+You can view the live project here:
+
+https://yelugubanti-sunitha.github.io/hyderago
+
 🌟 Features
 
 - Ride selection (Bike, Auto, Cab, Scooty, Sedan, SUV)
@@ -98,8 +104,7 @@ Ride Selection
 Contact Section
 ![Contact Section](screenshots/contact.png)
 
-🌐 Live Demo
+👩‍💻 Author
 
-You can view the live project here:
+Yelugubanti sunitha
 
-https://yelugubanti-sunitha.github.io/hyderago
