@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+ 🚖 HyderaGo – Ride Booking Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HyderaGo is a responsive ride booking web application inspired by modern ride-hailing platforms.  
+Users can explore Hyderabad, choose rides, view famous locations, and simulate booking a ride.
 
-## Available Scripts
+🌟 Features
 
-In the project directory, you can run:
+- Ride selection (Bike, Auto, Cab, Scooty, Sedan, SUV)
+- Pickup and drop location booking
+- Fare estimation
+- Payment method selection
+- Driver details simulation
+- SOS emergency safety feature
+- Hyderabad tourist highlights
+- Interactive UI with smooth scrolling
+- Google Maps location preview
 
-### `npm start`
+🏙 Hyderabad Highlights
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app showcases famous places in Hyderabad:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Charminar
+- HiTech City
+- Hyderabadi Biryani
 
-### `npm test`
+Clicking each card reveals additional information about the place.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠 Tech Stack
 
-### `npm run build`
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 🚀 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow the steps below to run the HyderaGo project on your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Step 1 — Clone the Repository
 
-### `npm run eject`
+```bash
+git clone https://github.com/yelugubanti-sunitha/hyderago.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Step 2 — Go to the Project Folder
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd hyderago
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Step 3 — Install Project Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+Step 4 — Start the React Development Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Step 5 — Open the Application in Your Browser
 
-### Code Splitting
+```bash
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+After running `npm start`, the application will automatically start and open in your browser.
 
-### Analyzing the Bundle Size
+If it does not open automatically, copy the URL above and paste it in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📋 Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Make sure the following software is installed on your system:
 
-### Advanced Configuration
+```bash
+Node.js
+npm
+Git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can download Node.js from:
 
-### Deployment
+```bash
+https://nodejs.org
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
