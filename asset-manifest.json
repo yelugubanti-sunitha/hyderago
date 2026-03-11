@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hyderago/static/css/main.ac3eb97a.css",
+    "main.js": "/hyderago/static/js/main.b61addcc.js",
+    "static/media/hyderabad-skyline.png": "/hyderago/static/media/hyderabad-skyline.24232e1b84a0034c9def.png",
+    "static/media/scooty.png": "/hyderago/static/media/scooty.58e4b9b73311c7bb1057.png",
+    "static/media/sedan.png": "/hyderago/static/media/sedan.e94a4704e67e4050c5a6.png",
+    "static/media/biryani.png": "/hyderago/static/media/biryani.1639131e270a1bce5455.png",
+    "static/media/hitechcity.png": "/hyderago/static/media/hitechcity.3c5c8461fbae16d0b8dc.png",
+    "static/media/suv.png": "/hyderago/static/media/suv.409814dcf9d41dc00c70.png",
+    "static/media/auto.png": "/hyderago/static/media/auto.9218e3e72a237829b730.png",
+    "static/media/charminar.png": "/hyderago/static/media/charminar.2128069586f177ef4f02.png",
+    "static/media/cab.png": "/hyderago/static/media/cab.287f20020206133fd885.png",
+    "static/media/bike.png": "/hyderago/static/media/bike.bfecfd246ca58016264b.png",
+    "index.html": "/hyderago/index.html",
+    "main.ac3eb97a.css.map": "/hyderago/static/css/main.ac3eb97a.css.map",
+    "main.b61addcc.js.map": "/hyderago/static/js/main.b61addcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac3eb97a.css",
+    "static/js/main.b61addcc.js"
+  ]
+}
