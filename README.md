@@ -20,7 +20,8 @@ https://yelugubanti-sunitha.github.io/hyderago
 - Hyderabad tourist highlights
 - Interactive UI with smooth scrolling
 - Google Maps location preview
-- Integrated real-time weather API to display current Hyderabad temperature and conditions dynamically 
+- Integrated real-time weather API to display current Hyderabad temperature and conditions dynamically
+- Implemented conditional logic to map weather codes into meaningful UI states (Clear, Cloudy, Rain, etc.)
 
 🏙 Hyderabad Highlights
 
