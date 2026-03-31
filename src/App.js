@@ -178,18 +178,32 @@ else if (selectedRide === "SUV") {
 ) : weatherError ? (
   <p className="weather-box">{weatherError}</p>
 ) : (
-  <p className="weather-box">
-    {weather?.weather_code === 0 && "☀️"}
-{weather?.weather_code >= 1 && weather?.weather_code <= 3 && "⛅"}
-{weather?.weather_code >= 51 && weather?.weather_code <= 67 && "🌧️"}
- 🌤 Hyderabad Weather: {weather?.temperature_2m}°C (
-{weather?.weather_code === 0 && "Clear Sky"}
-{weather?.weather_code === 1 && "Mainly Clear"}
-{weather?.weather_code === 2 && "Partly Cloudy"}
-{weather?.weather_code === 3 && "Cloudy"}
-{weather?.weather_code >= 51 && weather?.weather_code <= 67 && "Rain"}
-)
-  </p>
+ <p className="weather-box">
+  {
+    weather?.weather_code === 0
+      ? "☀️"
+      : weather?.weather_code >= 1 && weather?.weather_code <= 3
+      ? "⛅"
+      : weather?.weather_code >= 51 && weather?.weather_code <= 67
+      ? "🌧️"
+      : "🌤️"
+  }
+  Hyderabad Weather: {weather?.temperature_2m}°C (
+  {
+  weather?.weather_code === 0
+    ? "Clear Sky"
+    : weather?.weather_code >= 1 && weather?.weather_code <= 3
+    ? "Cloudy"
+    : weather?.weather_code >= 45 && weather?.weather_code <= 48
+    ? "Fog"
+    : weather?.weather_code >= 51 && weather?.weather_code <= 67
+    ? "Rain"
+    : weather?.weather_code >= 71 && weather?.weather_code <= 77
+    ? "Snow"
+    : "Current Conditions"
+}
+  )
+</p>
 )}
 <h1 className="title">HyderaGo</h1>
 
