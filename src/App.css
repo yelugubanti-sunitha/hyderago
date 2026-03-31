@@ -337,6 +337,19 @@ body {
   font-weight: 500;
 }
 
+.weather-box {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 10px 18px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(255, 107, 0, 0.18);
+  border-radius: 999px;
+  color: #333;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
 /* ========================= */
 /* 📱 RESPONSIVE DESIGN */
 /* ========================= */

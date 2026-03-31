@@ -30,6 +30,10 @@ function App() {
   const [sosMessage, setSosMessage] = useState("");
   const [time, setTime] = useState(new Date());
   const [activePlace, setActivePlace] = useState("");
+
+  const [weather, setWeather] = useState(null);
+  const [weatherLoading, setWeatherLoading] = useState(true);
+  const [weatherError, setWeatherError] = useState("");
   useEffect(() => {
     const interval = setInterval(() => {
       setTime(new Date());
@@ -37,6 +41,33 @@ function App() {
 
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+  const fetchWeather = async () => {
+    try {
+      setWeatherLoading(true);
+      setWeatherError("");
+
+      const response = await fetch(
+        "https://api.open-meteo.com/v1/forecast?latitude=17.385&longitude=78.4867&current=temperature_2m,weather_code"
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to fetch weather data");
+      }
+
+      const data = await response.json();
+
+      setWeather(data.current);
+    } catch (error) {
+      setWeatherError("Unable to load weather information.");
+    } finally {
+      setWeatherLoading(false);
+    }
+  };
+
+  fetchWeather();
+}, []);
 
   const hours = time.getHours();
 
@@ -142,8 +173,25 @@ else if (selectedRide === "SUV") {
           <p className="greeting">
             {greeting}, Hyderabad 👋 | {time.toLocaleTimeString()}
           </p>
-
-          <h1 className="title">HyderaGo</h1>
+{weatherLoading ? (
+  <p className="weather-box">Loading Hyderabad weather...</p>
+) : weatherError ? (
+  <p className="weather-box">{weatherError}</p>
+) : (
+  <p className="weather-box">
+    {weather?.weather_code === 0 && "☀️"}
+{weather?.weather_code >= 1 && weather?.weather_code <= 3 && "⛅"}
+{weather?.weather_code >= 51 && weather?.weather_code <= 67 && "🌧️"}
+ 🌤 Hyderabad Weather: {weather?.temperature_2m}°C (
+{weather?.weather_code === 0 && "Clear Sky"}
+{weather?.weather_code === 1 && "Mainly Clear"}
+{weather?.weather_code === 2 && "Partly Cloudy"}
+{weather?.weather_code === 3 && "Cloudy"}
+{weather?.weather_code >= 51 && weather?.weather_code <= 67 && "Rain"}
+)
+  </p>
+)}
+<h1 className="title">HyderaGo</h1>
 
           <p className="subtitle">
             Explore Hyderabad – From Charminar to HiTech City
