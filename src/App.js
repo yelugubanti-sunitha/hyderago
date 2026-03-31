@@ -200,6 +200,8 @@ else if (selectedRide === "SUV") {
     ? "Rain"
     : weather?.weather_code >= 71 && weather?.weather_code <= 77
     ? "Snow"
+    : weather?.weather_code >= 80 && weather?.weather_code <= 82
+    ? "Rain Showers"
     : "Current Conditions"
 }
   )
