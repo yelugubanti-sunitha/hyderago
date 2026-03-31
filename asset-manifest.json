@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hyderago/static/css/main.32aa2b28.css",
-    "main.js": "/hyderago/static/js/main.939b08f3.js",
+    "main.js": "/hyderago/static/js/main.ba10990a.js",
     "static/media/hyderabad-skyline.png": "/hyderago/static/media/hyderabad-skyline.24232e1b84a0034c9def.png",
     "static/media/scooty.png": "/hyderago/static/media/scooty.58e4b9b73311c7bb1057.png",
     "static/media/sedan.png": "/hyderago/static/media/sedan.e94a4704e67e4050c5a6.png",
@@ -14,10 +14,10 @@
     "static/media/bike.png": "/hyderago/static/media/bike.bfecfd246ca58016264b.png",
     "index.html": "/hyderago/index.html",
     "main.32aa2b28.css.map": "/hyderago/static/css/main.32aa2b28.css.map",
-    "main.939b08f3.js.map": "/hyderago/static/js/main.939b08f3.js.map"
+    "main.ba10990a.js.map": "/hyderago/static/js/main.ba10990a.js.map"
   },
   "entrypoints": [
     "static/css/main.32aa2b28.css",
-    "static/js/main.939b08f3.js"
+    "static/js/main.ba10990a.js"
   ]
 }
