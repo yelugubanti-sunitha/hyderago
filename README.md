@@ -1,7 +1,8 @@
  🚖 HyderaGo – Ride Booking Web App
 
-HyderaGo is a responsive ride booking web application inspired by modern ride-hailing platforms.  
-Users can explore Hyderabad, choose rides, view famous locations, and simulate booking a ride.
+HyderaGo is a ride-booking simulation application designed to demonstrate booking workflows, user interaction handling, fare estimation, and application flow management.
+
+The project includes ride selection, booking confirmation, payment simulation, safety features, and dynamic data handling concepts.
 
 🌐 Live Demo
 
